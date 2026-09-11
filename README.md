@@ -8,7 +8,7 @@ The library provides two classes for different use cases:
 1. **`ITrackerSubscriber`** - Direct server mode (for standalone applications)
 2. **`ITrackerIPCClient`** - IPC client mode (for multi-process applications)
 
-Please check out the [VIVE-Tracker-SDK-Guide-EN.md](./VIVE-Tracker-SDK-Guide-EN.md) for the full set up guide, including how to create your map and optimising your physical environment for tracking.
+Please check out the [VIVE Ultimate Tracker SDK Guide](./VIVE-Ultimate-Tracker-SDK-Guide-EN.md) for the full set up guide, including how to create your map and optimising your physical environment for tracking.
 
 
 ## Mode 1: ITrackerSubscriber (Direct Server)
@@ -173,7 +173,7 @@ cd bin
   apt install build-essential
   apt install libopencv-dev libglew-dev libglfw3-dev
   ```
-- Go through the full setup guide [VIVE-Tracker-SDK-Guide-EN.md](./VIVE-Tracker-SDK-Guide-EN.md)
+- Go through the full setup guide [VIVE Ultimate Tracker SDK Guide](./VIVE-Ultimate-Tracker-SDK-Guide-EN.md)
 
 
 ## Known Issues
