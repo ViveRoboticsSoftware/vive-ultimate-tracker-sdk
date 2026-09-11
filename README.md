@@ -10,6 +10,7 @@ The library provides two classes for different use cases:
 
 Please check out the [VIVE Ultimate Tracker SDK Guide](./VIVE-Ultimate-Tracker-SDK-Guide-EN.md) for the full set up guide, including how to create your map and optimising your physical environment for tracking.
 
+
 ## Mode 1: ITrackerSubscriber (Direct Server)
 Callbacks are invoked directly from the tracker server thread. This is the lowest-latency mode for receiving tracker updates. A server mode app needs to call StartTrackerServer() and StopTrackerServer(). Having multiple subscribers is possible.
 ```cpp
@@ -173,6 +174,7 @@ cd bin
   apt install libopencv-dev libglew-dev libglfw3-dev
   ```
 - Go through the full setup guide [VIVE Ultimate Tracker SDK Guide](./VIVE-Ultimate-Tracker-SDK-Guide-EN.md)
+
 
 ## Known Issues
 - In rare cases, map syncing may take a little time. Keep all trackers close together until completed or try **restart all** command.
