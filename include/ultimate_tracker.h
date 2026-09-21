@@ -41,7 +41,7 @@ constexpr uint32_t TrackerFlag_SetupRequired = 1<<7; // need to run setup proces
 
 struct VIVETRACKER_API TrackerData {
   //
-  // from version v0.0.3, coordinate system follow isaac sim, i.e.
+  // coordinate system follows isaac sim, i.e.
   //   X-axis: Forward
   //   Y-axis: Left
   //   Z-axis: Up
