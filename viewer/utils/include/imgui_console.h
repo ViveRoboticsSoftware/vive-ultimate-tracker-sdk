@@ -123,7 +123,7 @@ public:
 
     ImGui::SetNextWindowBgAlpha(0.5f);
     if (!ImGui::Begin(title, &is_open)) {
-      LOGE("[ImGuiConsole::Draw] ImGui::Begin(%s) failed!", title);
+      //LOGE("[ImGuiConsole::Draw] ImGui::Begin(%s) failed!", title);
       ImGui::End();
       return;
     }
