@@ -170,7 +170,7 @@ cd bin
 - VIVE Ultimate Trackers + USB Dongle
 - tracker_viewer Dependencies: opencv, opengl, glew, glfw and imgui (included)
   ```bash
-  apt install build-essential
+  apt install build-essential cmake
   apt install libopencv-dev libglew-dev libglfw3-dev
   ```
 - Go through the full setup guide [VIVE Ultimate Tracker SDK Guide](./VIVE-Ultimate-Tracker-SDK-Guide-EN.md)
